@@ -4,7 +4,18 @@ body {
 .text-orange {
   color: #f15025;
 }
+.text-slanted {
+  font-family: "Courgette", cursive;
+}
 .letter-spacing {
   letter-spacing: 0.5rem;
-  
+}
+.banner, .defualt-banner {
+  min-height: calc(100vh - 64px);
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('./images/banner2.jpg') center/cover no-repeat;
+}
+.defualt-banner {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('./images/default.jpg') center/cover no-repeat;
 }
